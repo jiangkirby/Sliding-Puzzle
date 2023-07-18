@@ -1,0 +1,15 @@
+Puzzle: mario.puz
+3: Kirby
+4: Marian
+Puzzle: yoshi.puz
+33: Kirby
+55: Marian
+Puzzle: fifteen.puz
+42: Yes
+44: No
+Puzzle: luigi.puz
+2: Kirby
+Puzzle: smiley.puz
+1: Ez
+2: Ez
+3: Ez

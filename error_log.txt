@@ -1,0 +1,2 @@
+Fri Dec 09 04:44:56 2022: Error: File yesssir does not exist. LOCATION: Game.load()
+Sun Dec 18 06:54:25 2022: Error: Could not open leaderboard.txt. LOCATION: Game.draw_leaderboard()

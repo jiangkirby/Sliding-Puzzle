@@ -1,0 +1,25 @@
+	For my game design, I decided to first start by collecting the
+metadata from each .puz file. I put the metadata into a dictionary so that
+each key and its corresponding value were easily accessible. Then I generated
+a list of numbers in random order corresponding to the number of tiles in the
+puzzle. I drew the puzzle and stamped each gif in the center of the squares.
+Afterwards I placed my turtle at the center of the blank tile, so that I could
+easily stamp the tile that the player would be swapping it with. My function
+update_puzzle handled the clicks by the player and determined if they clicked
+on a viable puzzle tile to swap; or on one of the buttons.
+	One obstacle I came across was when dealing with the load button, I
+tried clearing all stamps, but then I realized that that cleared the button
+stamps as well, which is not what I wanted. Therefore I had to create two
+turtle objects and have one with the temporary stamps, and the other with the
+permanent stamps (the buttons). The turtle object was also very limiting in
+that the onclick function called another function, but that function could
+only have x, y as its parameters. I therefore had to create many nested
+functions so that my other variables I had initially passed through were still
+within the scope of my new function.
+	I have implemented a function to check whether or not a randomized
+tile order is solvable or not. The console will print out "Random puzzle
+generated is unsolvable... Retrying..." if the tile order is unsolvable, and
+"Random puzzle generated is solvable!" if the tile order is solvable. In order
+to present the player with a guaranteed solvable tile order, I kept generating
+random tile orders until one of them was solvable. I then passed that order
+into my functions.

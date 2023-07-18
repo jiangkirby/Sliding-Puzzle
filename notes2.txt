@@ -1,0 +1,14 @@
+key_list
+value_list
+sorted(value_list)
+
+value_list[first_index], value_list[second_index] = value_list[second_index], value_list[first_index]
+new_list = old_list[first_index - 1] + old_list[second_index] + old_list[first_index:]
+
+x = [1, 5, 2, 4, 6]
+first = 1
+second = 2
+x = x[:first] + x[second] + x.pop(second)[first:]
+
+x = [[Marian, 2], [Kirby, 5]
+x[y][1]

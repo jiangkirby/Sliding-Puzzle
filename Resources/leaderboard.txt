@@ -1,0 +1,14 @@
+Puzzle: mario.puz
+3: Kirby
+4: Marian
+Puzzle: yoshi.puz
+33: Kirby
+44: Marian
+Puzzle: luigi.puz
+999: Wario
+Puzzle: smiley.puz
+1: Ez
+2: Ez
+3: Ez
+Puzzle: fifteen.puz
+15: fifteen

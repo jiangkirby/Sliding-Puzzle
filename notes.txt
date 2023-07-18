@@ -1,0 +1,20 @@
+112 * 4 = 448
+112 * 3 = 336
+
+-336, 336
+
+
+name, number, size, thumbnail = metadata["name"], metadata["number"], \
+                                        metadata["size"], metadata["thumbnail"]
+
+metadata[(j + 1) + (i * metadata["number"] ** (1/2))]
+
+0  1  2
+3  4  5
+6  7  8
+
+-((MAX_TILE_SIZE + 4) * 1.5) + ((MAX_TILE_SIZE + 4) * 2.15) + (((MAX_TILE_SIZE + 4) * 4.1) / 2)
+-(1.5x) + (2.15x) + (2.05x)
+
+(275.40,-116.30)
+y-cord: -0.65(MAX_TILE_SIZE + 4) -50
