@@ -8,8 +8,7 @@ Puzzle Slider Game is a combination puzzle game where players must slide pieces 
 - [Features](#features)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Bonus Features](#bonus-features)
-- [Error Logging](#error-logging)
+- [Additional Notes](#additional-notes)
 - [Testing](#testing)
 - [Contributing](#contributing)
 
@@ -45,26 +44,20 @@ This project is a Python implementation of the Puzzle Slider Game. The game allo
 6. Players can click "Reset" to see the completed puzzle or "Load" to load a different puzzle.
 7. The "Quit" button can be used to exit the game.
 
-## Bonus Features
+## Additional Notes
 
-(a) The project includes an algorithm to determine if the current puzzle is solvable or unsolvable. This feature ensures that about 50% of the puzzles are solvable.
+- Around 50% of puzzles with tiles in randomly generated order are solvable. The project includes a function that checks whether or not the current tile order is solvable. To view the solvability status, check the console print.
 
-(b) To view the solvability status, check the console print or look for the information somewhere in the Turtle GUI.
+- The project includes code that guarantees the puzzle provided to the player is solvable.
 
-(c) The project includes a PyUnit test to validate the solvability algorithm.
-
-(d) The project includes an additional code that guarantees the puzzle provided to the player is solvable. A PyUnit test is also provided to validate the "puzzle scrambler" to verify its solvability.
-
-## Error Logging
-
-The program logs errors to the "error_log.txt" file. The support team can use this file to investigate issues.
+- The program logs errors to the "error_log.txt" file.
 
 ## Testing
 
 The project includes a set of PyUnit tests to ensure its functionality. To run the tests, use the following command:
 
 ```bash
-python -m unittest discover
+python -m unittest discover -p 'unittest*.py'
 ```
 
 ## Contributing
